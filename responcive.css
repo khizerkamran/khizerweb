@@ -1,0 +1,415 @@
+/*================ Normal desktop :992px.==================== */
+@media (min-width: 992px) and (max-width: 1169px) {
+
+	.about_min_ant .about_right .text a{
+		padding: 15px 50px;
+
+
+	}
+	.Pricing_cnt{
+		padding: 20px;
+	}
+	.pric_card{
+		position: relative;
+		display: flex;
+		text-align: center;
+		justify-content: center;
+		align-items: center;
+
+	}
+	.pric_card .card{
+		width: 33.33%;
+		padding: 20px;
+		/* border-radius: 20px; */
+		border:none;
+		transition: .6s;
+		justify-content: center;
+		align-items: center;
+		align-items: center;
+		margin: 10px;
+		background: rgb(108, 108, 229);
+	}
+
+
+}
+
+/*================ Tablet desktop :768px.==================*/
+@media (min-width: 768px) and (max-width: 991px) {
+	.sidebar {
+	    background: #302f4e !important;
+	    color: #fff;
+	    font-weight: 600;
+	    background-size: cover;
+
+	}
+	.about_min_ant .about_left{
+		/*width: 20%;*/
+		text-align: center;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 30px;
+	
+	}
+	.about_min_ant .about_right{
+
+		padding: 30px;   
+	}
+
+	#services .srv_card .card{
+		width: 33.33%;
+		border:none;
+		padding:40px 20px;
+		border-radius: 20px;
+		transition: .6s;
+		justify-content: center;
+		align-items: center;
+		align-items: center;
+		margin: 10px;
+
+	}
+
+	#services .srv_card .card h2{
+		font-size: 16px;
+		letter-spacing: 1px;
+
+
+	}
+	#services .srv_card .card p{
+		letter-spacing: .8px;
+	}
+
+	#Experience .exp_left{
+		border-radius: 30px 30px 0px 0px;
+	}
+	#Experience .exp_right
+	{
+		border-radius: 0px 0px 30px 30px;
+
+	}
+
+	.Pricing_cnt{
+		padding: 20px;
+	}
+	.pric_card{
+		position: relative;
+		display: flex;
+		text-align: center;
+		justify-content: center;
+		align-items: center;
+
+	}
+	.pric_card .card{
+		width: 33.33%;
+		padding: 40px 20px;
+		border-radius: 20px;
+		border:none;
+		transition: .6s;
+		justify-content: center;
+		align-items: center;
+		align-items: center;
+		margin: 10px;
+		background: rgb(108, 108, 229);
+
+
+	}
+
+
+	#testimonial .left_content{
+		padding: 20px;
+		margin-left: 10px;
+		margin-bottom: 40px;
+	}
+
+	#testimonial-slider{
+		padding: 40px;
+	}
+	
+
+	.testimonial .description{
+	    font-size: 14px;
+	    color: #fff;
+	    line-height: 27px;
+	    letter-spacing: .7px;
+	}	
+	#testimonial .heading{
+		padding: 20px 0px;
+	}
+
+	#testimonial .heading h2{
+		padding-left: 0px;
+	}
+
+	.blog_card:hover{
+		margin-top: -5px;
+		transition: .6s;
+	}
+	.form-box form{
+		padding: 10px;
+
+
+	}
+
+	.cont_cnt{
+		padding: 30px 10px;
+	}
+
+
+
+}
+
+/* ======================Large Mobile :480px.================== */
+@media only screen and (min-width: 480px) and (max-width: 767px) {	
+	.sidebar {
+    background: #302f4e !important;
+    color: #fff;
+    font-weight: 600;
+    background-size: cover;
+
+	}
+	.ab
+	.about_min_ant .about_left{
+		/*width: 20%;*/
+		text-align: center;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 30px;
+	
+	}
+	.conent_prj .top{
+		display: flex;
+	}
+	#services .srv_card {
+		display: block;
+		/*text-align: center;
+		justify-content: center;*/
+		/*align-items: center;*/
+	}
+	#services .srv_card .card{
+		text-align: center;
+		align-items: center;
+		justify-content: center;
+		width: 80%;
+		padding:50px 40px;
+		border-radius: 20px;
+		transition: .6s;
+		margin-bottom: 30px;
+		transform: translate(10%,0%);
+
+	}
+
+	#services .srv_card .card h2{
+		font-size: 20px;
+		letter-spacing: 1px;
+
+
+	}
+
+	#services .srv_card #card1,
+	#services .srv_card #card2,
+	#services .srv_card #card3:hover{
+		margin-top: 0px;
+	}
+
+	#services .srv_card .card img{
+		transform:translate(13%,-12%);
+		position: relative;
+
+	}
+
+	#testimonial .left_content{
+		padding: 20px;
+		margin-left: 10px;
+		margin-bottom: 40px;
+	}
+
+	#testimonial-slider{
+		padding: 40px;
+	}
+	
+
+	.testimonial .description{
+	    font-size: 14px;
+	    color: #fff;
+	    line-height: 27px;
+	    letter-spacing: .7px;
+	}	
+	#testimonial .heading{
+		padding: 20px 0px;
+	}
+
+	#testimonial .heading h2{
+		padding-left: 0px;
+	}
+
+	.Pricing_cnt{
+		padding: 20px;
+	}
+	.pric_card{
+		position: relative;
+		display: block;
+		text-align: center;
+		justify-content: center;
+		align-items: center;
+
+	}
+	.pric_card .card{
+		width: 80%;
+		padding: 40px 20px;
+		border-radius: 20px;
+		border:none;
+		transition: .6s;
+		justify-content: center;
+		align-items: center;
+		align-items: center;
+		margin: 10px;
+		background: rgb(108, 108, 229);
+
+
+	}
+
+	.blog_ant .blog_min{
+		display: block;
+		position: relative;
+		text-align: center;
+		justify-content: center;
+		align-items: center;
+		padding: 50px 0px;
+	}
+
+
+
+	.blog_card{
+		text-align: center;
+		align-items: center;
+		justify-content: center;
+		width: 80%;
+		border-radius: 20px;
+		transition: .6s;
+		margin-bottom: 40px;
+		transform: translate(10%,0%);
+	} 
+
+	.blog_card:hover{
+		margin-top:0px;
+		transition: .6s;
+	}
+
+	.form-box form{
+		padding: 10px;
+
+
+	}
+
+	.cont_cnt{
+		padding: 30px 10px;
+	}
+
+
+
+}
+
+/*================== small mobile :320px. ===================*/
+@media (max-width: 767px) {	
+	.sidebar {
+	    background: #302f4e !important;
+	    color: #fff;
+	    font-weight: 600;
+	    background-size: cover;
+
+	}
+
+	#services .srv_card {
+		display: block;
+		/*text-align: center;
+		justify-content: center;*/
+		/*align-items: center;*/
+	}
+	#services .srv_card .card{
+		display: block;
+		text-align: center;
+		align-items: center;
+		justify-content: center;
+		width: 80%;
+		padding:50px 40px;
+		border-radius: 20px;
+		transition: .6s;
+		margin-bottom: 30px;
+		transform: translate(10%,0%);
+
+	}
+
+
+	.Pricing_cnt{
+		padding: 20px;
+	}
+	.pric_card{
+		position: relative;
+		display: block;
+		text-align: center;
+		justify-content: center;
+		align-items: center;
+
+	}
+	.pric_card .card{
+		width: 80%;
+		padding: 40px 20px;
+		border-radius: 20px;
+		border:none;
+		transition: .6s;
+		justify-content: center;
+		align-items: center;
+		align-items: center;
+		margin: 10px;
+		background: rgb(108, 108, 229);
+		transform: translate(10%,0%);
+		margin-bottom: 30px;
+	}	
+	
+
+	#testimonial-slider{
+		padding: 20px;
+	}
+
+	.blog_ant .blog_min{
+		display: block;
+		position: relative;
+		text-align: center;
+		justify-content: center;
+		align-items: center;
+		padding: 50px 0px;
+	}
+
+
+
+	.blog_card{
+		display: block;
+		text-align: center;
+		align-items: center;
+		justify-content: center;
+		width: 80%;
+		border-radius: 20px;
+		transition: .6s;
+		margin-bottom: 40px;
+		transform: translate(10%,0%);
+	} 
+
+	.blog_card:hover{
+		margin-top:0px;
+		transition: .6s;
+	}
+
+	.form-box form{
+		padding: 10px;
+
+
+	}
+
+	.cont_cnt{
+		padding: 30px 10px;
+	}
+
+
+	
+
+
+}
